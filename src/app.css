@@ -1,0 +1,25 @@
+/* Encabezados de tabla pegajosos dentro de contenedor con scroll */
+.table-responsive thead.table-light {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Bordes un poquito más notorios */
+.table td, .table th {
+  vertical-align: middle;
+  border-color: #dee2e6;
+}
+
+/* No-wrap en escritorio para evitar salto excesivo; wrap en móvil */
+@media (min-width: 992px) {
+  .table-nowrap td, .table-nowrap th {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-nowrap td, .table-nowrap th {
+    white-space: normal;
+    word-break: break-word;
+  }
+}

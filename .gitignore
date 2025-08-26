@@ -1,0 +1,63 @@
+# -------------------------
+# Python / FastAPI backend
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.log
+*.sqlite3
+*.db
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Bytecode y cachés
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# -------------------------
+# Node.js / Svelte frontend
+# -------------------------
+node_modules/
+dist/
+build/
+.vite/
+.svelte-kit/
+package-lock.json
+
+# Archivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Archivos de lock de dependencias opcionales
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------
+# VSCode / IDE
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Sistema operativo
+# -------------------------
+.DS_Store
+Thumbs.db
